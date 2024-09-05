@@ -1,10 +1,9 @@
-![Project Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+# SafePulse Project MERN stack:
+SafePulse is a MERN stack web application designed to provide real-time emergency assistance. 
 
-![](https://cdn-images-1.medium.com/max/1000/1*WcHHixgDq7o5lN3biKIu9Q.png)
-# Code for my blog series:
-- [How to build your own Uber-for-X App](https://www.ashwinhariharan.tech/blog/how-to-build-your-own-uber-for-x-app/)
-- [How to build your own Uber-for-X App - Part 2](https://www.ashwinhariharan.tech/blog/how-to-build-your-own-uber-for-x-app-part-2/)
+Utilizing Socket.io and advanced geolocation features, the platform enables civilians to instantly alert nearby law enforcement by sharing their live location with a single click. 
 
+This seamless communication system aims to enhance public safety and response times during critical situations.
 
 ## Tech Stack
 
@@ -14,8 +13,8 @@
 - Install [NodeJS](https://nodejs.org/en/) and [MongoDB](https://docs.mongodb.com/)
 - Fork this project and clone it in your machine
 - `cd` to your project root and run `npm install`
-- run `mongoimport --db uberForX --collection cops --drop --file ./db/cops.json` to import sample cop information in MongoDB
-- run `mongoimport --db uberForX --collection requests --drop --file ./db/crime-data.json` to import sample crime information in MongoDB
+- run `mongoimport --db SafePulse --collection cops --drop --file ./db/cops.json` to import sample cop information in MongoDB
+- run `mongoimport --db SafePulse --collection requests --drop --file ./db/crime-data.json` to import sample crime information in MongoDB
 
 ## How to run:
 - Run `node app.js` in your project root folder
@@ -23,14 +22,3 @@
 - Open 3 or more cop pages from the imported cop profiles on separate tabs - [01](http://localhost:8000/cop.html?userId=01), [02](http://localhost:8000/cop.html?userId=02), [03](http://localhost:8000/cop.html?userId=03), [04](http://localhost:8000/cop.html?userId=04), [05](http://localhost:8000/cop.html?userId=05), [06](http://localhost:8000/cop.html?userId=06), [07](http://localhost:8000/cop.html?userId=07)
 
 
------
-
-![Made with love](http://ForTheBadge.com/images/badges/built-with-love.svg) 
-
-## Did this project help you? I'd love your support 🙏
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I2131HO)
-
-<a href="https://www.buymeacoffee.com/booleanhunter" target="_blank">
-  <img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;">
-</a>
